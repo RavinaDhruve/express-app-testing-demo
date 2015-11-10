@@ -32,3 +32,5 @@ app only focuses on server-side JavaScript testing.
 ## Running Code Coverage Report
 
 Build the code coverage report with `grunt coverage`.
+
+try
