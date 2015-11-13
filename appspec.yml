@@ -5,8 +5,8 @@ files:
     destination: /home/ubuntu/M3_App
 hooks:
   BeforeInstall:
-    - location: scripts/start_server.sh
+    - location: start_server.sh
       runas: root
   AfterInstall:
-    - location: scripts/on_server.sh
+    - location: on_server.sh
       runas: root
