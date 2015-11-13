@@ -1,3 +1,4 @@
 cd /home/ubuntu/M3_App
+forever stopall
 npm install
-node app.js
+forever --watch start app.js 3000
